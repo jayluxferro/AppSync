@@ -17,7 +17,7 @@ enum
 
 #ifdef DEBUG
 #include <CoreFoundation/CFLogUtilities.h>
-	CFStringRef entErrorString(int code);
+CFStringRef entErrorString(int code);
 #endif
 
 #ifdef __cplusplus
