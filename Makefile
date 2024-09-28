@@ -1,7 +1,8 @@
 THEOS_DEVICE_IP = localhost
 THEOS_DEVICE_PORT = 2222
 export TARGET = iphone:clang:latest:5.0
-export ARCHS = armv7 armv7s arm64 arm64e
+#export ARCHS = armv7 armv7s arm64 arm64e
+export ARCHS = arm64 arm64e
 export DEBUG = 0
 
 THEOS_PACKAGE_DIR_NAME = debs
